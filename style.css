@@ -1,0 +1,84 @@
+
+*{
+  margin:0px;
+  padding:0px;
+}
+body {
+  font-family:sans-serif;
+  background-image:url(79b6bc.png);
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.Registered-Now{
+width:330px;
+height:500px ;
+padding:30px ;
+border: 5px solid #34495e;
+border-radius:10px;
+outline: none;
+background:#F1F1F2;
+}
+.form h2{
+color: black;
+}
+.input-style {
+margin-top:15px ;
+}
+.input-style input{
+width: 90%;
+background: transparent;
+padding: 3px;
+border:2px solid black;
+border-radius:5px;
+color: black;
+outline: none;
+height: 15px;
+margin-bottom:4px;
+}
+.input-style label{
+color: black;
+margin-bottom:4px;
+display: block;
+font-size: 15px;
+cursor: pointer;
+padding:1px;
+}
+.gender p{
+color: black;
+margin-top:4px;
+}
+.option label{
+color: black;
+cursor: pointer;
+}
+.form-group button{
+width: 98%;
+margin-top: 20px;
+padding: 10px;
+background :linear-gradient(130deg,#1abc9c,#16a085);
+outline:none;
+border-radius: 5px;
+color: black;
+cursor: pointer;
+border: none;
+}  
+.form-group button:hover{
+background :linear-gradient(-130deg,#1abc9c,#16a085);
+}
+.input-name input{
+color:black;
+cursor: pointer;
+border: 2px solid black;
+margin-top:8px;
+padding: 5px;
+
+}
+.form-group select{
+margin-top:8px;
+padding: 5px;
+border-color: solid black;
+}
